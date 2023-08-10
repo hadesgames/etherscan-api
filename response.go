@@ -50,6 +50,7 @@ type NormalTx struct {
 	CumulativeGasUsed int     `json:"cumulativeGasUsed,string"`
 	GasUsed           int     `json:"gasUsed,string"`
 	Confirmations     int     `json:"confirmations,string"`
+	MethodId          string  `json:"methodId"`
 }
 
 // InternalTx holds info from internal tx query
